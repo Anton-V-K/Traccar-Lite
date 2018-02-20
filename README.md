@@ -1,5 +1,5 @@
 # Traccar-Lite
-Lite version of Traccar Server re-implemented in PHP (suitable for free and/or shared hosting)
+Lite version of [Traccar Server](https://www.traccar.org/server/) re-implemented in PHP (suitable for free and/or shared hosting)
 
 # Installation
 1. Create MySQL database (or choose an existing one) at your site and import the SQL scripts from `db-new` subdirectory (in the specified order).
