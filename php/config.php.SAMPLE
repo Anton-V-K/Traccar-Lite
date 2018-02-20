@@ -1,0 +1,27 @@
+<?php
+
+class DB
+{
+  const host          = 'localhost';
+  const name          = '?'; // DB name is needed here
+  const user          = '?'; // DB user name is needed here
+  const password      = '?'; // DB user password is needed here
+
+  const table_devices   = 'devices';
+  const table_positions = 'positions';
+}
+
+class FLOG
+{
+  // The filename will be like 'log/log_2018-02-20.log'
+  const SUBDIR    = 'log/';
+  const FILEPRE   = 'log_';
+  const FILESTAMP = 'Y-m-d'; // date() is used to format filename
+  const FILEEXT   = '.log';
+  const MSGSTAMP  = 'Y-m-d H:i:s';
+}
+
+//date_default_timezone_set('Europe/Kiev'); // UTC+2/3
+//date_default_timezone_set('Asia/Yekaterinburg'); // UTC+5
+
+?>
